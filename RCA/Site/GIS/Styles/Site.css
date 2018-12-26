@@ -1,0 +1,1259 @@
+﻿/*Reset Start*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+body
+{
+    margin: 0;
+}
+
+ol, ul
+{
+    list-style: none;
+}
+blockquote, q
+{
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+/*Reset End*/
+
+/*body start*/
+.bodyBg
+{
+    margin: 0;
+    background-color: #fff; 
+    background-image: url(../Graphics/Images/bodyBg.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: top center;
+}
+
+.topL { width:100%; background : #323232;}
+.top_links {
+width :980px;
+margin:0 auto;
+height : 24px;
+
+}
+
+.top_links ul.other_links {
+margin : 0;
+padding : 0;
+list-style-type : none;
+float : right;
+font-size : 10px;
+font-family : Arial;
+color : #FFFFFF;
+text-transform : uppercase;
+}
+
+.top_links ul.other_links li {
+float : left;
+padding : 0 8px 0 8px;
+margin : 5px 0 5px 0;
+background : url(../Graphics/Images/top_divider.jpg) right center no-repeat;
+}
+
+.top_links ul.other_links li span {
+margin : 0 5px 0 5px;
+}
+
+.top_links ul.other_links li span .default {
+font-size : 10px;
+color : #FFFFFF;
+text-decoration : none;
+}
+
+.top_links ul.other_links li span .default_two {
+font-size : 11px;
+color : #FFFFFF;
+font-weight : bold;
+text-decoration : none;
+}
+
+.top_links ul.other_links li span .default_three {
+font-size : 13px;
+color : #FFFFFF;
+font-weight : bold;
+text-decoration : none;
+}
+
+.top_links ul.other_links li a {
+float : left;
+padding : 0 5px 0 5px;
+color : #FFFFFF;
+text-transform : uppercase;
+text-decoration : none;
+}
+
+.top_links ul.other_links li a:hover {
+color : #fff076;
+text-transform : uppercase;
+text-decoration : none;
+}
+
+.top_links ul.other_links li a img {
+vertical-align : middle;
+margin : -2px 5px 0 0;
+}
+
+/* For Font Sizes Start*/
+
+h1
+{
+    font-size: 1em;
+}
+h2
+{
+    font-size: 1em;
+}
+
+a:visited
+{
+    color: #339;
+}
+ul li
+{
+    margin-bottom: .4em;
+}
+table#demo
+{
+    background-color: #eee;
+}
+
+td.demo
+{
+}
+
+/* hide from incapable browsers */
+div#sizer
+{
+    display: none;
+}
+/* breathing room between images in sizer */
+div#sizer img
+{
+    margin-right: 3px;
+}
+
+/* For Font Sizes End*/
+
+.col
+{
+    float: left;
+}
+
+.listBullet
+{
+    list-style-type: disc;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+.ulmargin
+{
+    margin-left: 15px;
+   
+}
+.liType
+{
+    list-style-image: url(../Graphics/Icons/listBullet.gif);
+    list-style: &#8227;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*body end*/
+
+
+/*main body start*/
+.main
+{
+    width: 1004px;
+    padding: 0;
+    margin:0px auto  10px;
+    background-color: #FFFFFF;
+    border: 1px solid #999;
+    overflow: hidden;
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.70);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.70)";
+    zoom: 1;
+}
+
+
+.wrapper
+{
+    width: 100%;
+    overflow: hidden;
+}
+/* header */
+header
+{
+    width: 100%;
+    margin-bottom: -16px;
+    position: relative;
+    z-index: 1;
+}
+.row-1
+{
+    width: 1004px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5; /*background: url(../Graphics/Images/bannerBg.jpg) 0 0 repeat-x;*/
+    background-color: #E2ECCC;
+    float: left;
+}
+.row-1-master
+{
+    width: 100%;
+    height: 138px;
+    overflow: hidden;
+    z-index: 5;
+}
+.row-2
+{
+    width: 994px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    float: left;
+}
+
+.row-3
+{
+    width: 1004px;
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+h1
+{
+    padding: 0px 0 0 0px;
+    position: relative;
+    float: left;
+}
+.logo
+{
+    display: block;
+    width: 84px;
+    text-indent: -5000px;
+    background: url(../Graphics/Images/logoMaha.gif) 0 0 no-repeat;
+}
+.homeBanner
+{
+    display: block;
+    width: 986px;
+    height: 315px;
+    text-indent: -5000px;
+    background: url(../Graphics/Images/bannerHome.jpg) 0 0 no-repeat;
+}
+
+.slog
+{
+    display: block;
+    font-size: 1em;
+    line-height: 0.75em;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+
+
+
+#content
+{
+    background: #fff;
+    float: left;
+    font-family: Arial, Verdana;
+    font-size: 0.9em;
+    line-height: 15px;
+    text-align: justify;
+}
+#content .padding
+{
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.content
+{
+    font-family: Arial, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #333333;
+    text-align: justify;
+    line-height: 18px;
+}
+.menuHeadTitle
+{
+    font-family: Arial, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #DB261D;
+}
+.contentheadTitle
+{
+    font-family: Arial, Verdana;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+}
+.pageTitle
+{
+    font-family: Arial, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+}
+.textWhite
+{
+    font-family: Arial, Verdana;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.subTitle
+{
+    font-family: Arial, Verdana;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.imagHeader
+{
+    width: 235px;
+    height: 15px;
+    padding: 5px;
+    font-family: Arial, Verdana;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*main body end*/
+
+
+
+/*Right Menu start*/
+.rightMenu
+{
+    width: 220px; /*width of menu*/
+}
+
+.rightMenu .headerbar
+{
+    font: bold 0.9em Arial;
+    color: #ffffff;
+    background: #1375A4 url(media/arrowstop.gif) no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+    margin-bottom: 1px; /*bottom spacing between header and rest of content*/
+    text-transform: uppercase;
+    padding: 4px 0 4px 10px; /*31px is left indentation of header text*/
+}
+
+.rightMenu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rightMenu ul li
+{
+    margin-bottom: 1px; /*bottom spacing between menu items*/
+}
+
+.rightMenu ul li a
+{
+    font: normal 0.9em Arial;
+    color: #333333;
+    background: #ffffff;
+    display: block;
+    padding: 7px 0 8px 0;
+    padding-left: 8px; /*link text is indented 8px*/
+    text-decoration: none;
+}
+
+.rightMenu ul li a:visited
+{
+    color: black;
+}
+
+.rightMenu ul li a:hover
+{
+    /*hover state CSS*/
+    color: #080808;
+    background: #B3E0F7;
+}
+
+/*Right Menu end*/
+/*//////////Menus end/////////*/
+
+
+
+/*links start*/
+.link
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.link a
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.link a:active
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.link a:hover
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.link a:visited
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.sitemaplink
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1.0em;
+    text-decoration: none;
+}
+.sitemaplink a
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+        font-size: 1.0em;
+    text-decoration: none;
+}
+.sitemaplink a:active
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sitemaplink a:hover
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.sitemaplink a:visited
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.linkLogoText
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.linkLogoText a
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.linkLogoText a:active
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.linkLogoText a:hover
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.linkLogoText a:visited
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.linkpdf
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1.0em;
+    text-decoration: none;
+}
+.linkpdf a:link
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+     font-size: 1.0em;
+    text-decoration: underline;
+}
+.linkpdf a:visited
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.linkpdf a:hover
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1.0em;
+    text-decoration: underline;
+}
+
+
+.linkpdf a:active
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #cc3300;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+
+.linkMap
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.98em;
+    text-decoration: none;
+}
+.linkMap a:link
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.98em;
+    text-decoration: underline;
+}
+.linkMap a:visited
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-size: 0.98em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.linkMap a:hover
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.98em;
+    text-decoration: underline;
+}
+
+
+.linkMap a:active
+{
+    font-family: Arial, Tahoma, Verdana;
+    color: #cc3300;
+    font-size: 0.98em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.linkWhite
+{
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+.linkWhite a
+{
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.linkWhite a:active
+{
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.linkWhite a:hover
+{
+    font-family: Arial, Verdana;
+    color: #ffcccc;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.linkWhite a:visited
+{
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+
+
+.linkBlue
+{
+    font-family: Arial, Verdana;
+    color: #0F58BB;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: underline;
+}
+.linkBlue a
+{
+    font-family: Arial, Verdana;
+    color: #0F58BB;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: underline;
+}
+.linkBlue a:active
+{
+    font-family: Arial, Verdana;
+    color: #0F58BB;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: underline;
+}
+
+.linkBlue a:hover
+{
+    font-family: Arial, Verdana;
+    color: #333333;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: underline;
+}
+.linkBlue a:visited
+{
+    font-family: Arial, Verdana;
+    color: #0F58BB;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: underline;
+}
+
+
+/*links end*/
+
+
+
+/*buttons start*/
+.button
+{
+    display: block;
+    text-indent: -5000px;
+    float: left;
+}
+.button-2
+{
+    display: inline-block;
+    color: #fefefe;
+    margin-right: 5px;
+    text-decoration: none;
+    float: left;
+    padding: 4px 8px;
+    background-color: #F68C29;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+/*buttons end*/
+
+
+/*boxes start*/
+.contentBoxHeader
+{
+    background-color: #333333;
+    padding: 5px;
+    font-family: Arial, Tahoma, Verdana;
+    color: #ffffff;
+    font-weight: bold;
+}
+.contentBox
+{
+    border: 1px solid #cccccc;
+    background-color: #f0f0f0;
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    padding: 10px;
+}
+.boxPadding
+{
+    padding: 10px;
+}
+btnSummit
+{
+    background-image: url(../Graphics/Images/topMenuSummit.jpg);
+    background-repeat: no-repeat;
+    width: 129px;
+    height: 37px;
+    float: left;
+}
+
+/*boxes end*/
+.photoBox
+{
+    border: 1px solid #999999;
+    width: 195px;
+    height: 129px;
+    float: left;
+    margin: 10px;
+}
+.buttonSlideShowDiv
+{
+    width: 190px;
+    height: 127px;
+    float: left;
+    margin: 10px;
+}
+.buttonSlideShow
+{
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 5px;
+    text-decoration: none;
+    float: left;
+    padding: 4px 8px;
+    background-color: #CF5003;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.marginBottom
+{
+    margin-bottom: 10px;
+}
+.marginBottom1
+{
+    margin-bottom:px;
+}
+.label
+{
+    background-color:0efef;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    width: 40%;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+.labelDescription
+{
+    background-color: #f9f9f9;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    width: 60%;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+
+.formLabel
+{
+    background-color: #efefef;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    float: left;
+    width: 200px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+.formLabelDescription
+{
+    background-color: #f9f9f9;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    width: 500px;
+    float: left;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+
+
+
+.pdflabel
+{
+    background-color: #efefef;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    float: left;
+    width: 510px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 12px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+.pdflabelDescription
+{
+    background-color: #f9f9f9;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    width: 180px;
+    float: left;
+    padding: 2px 2px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+.pdfAccordionlabel
+{
+    background-color: #efefef;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    float: left;
+    width: 485px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 12px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+.pdfAccordionlabelDescription
+{
+    background-color: #f9f9f9;
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    width: 155px;
+    float: left;
+    padding: 2px 2px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+.error
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #cc3300;
+}
+.logoText
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+}
+.title
+{
+    font-family: Arial, Verdana;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #333333;
+}
+.tableHeading
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: center;
+}
+.tableText
+{
+    font-family: Arial, Tahoma, Verdana;
+    font-size: 1.0em;
+    text-align: center;
+}
+.divPadding
+{
+    padding: 6px;
+}
+.vAlign
+{
+    vertical-align: top;
+}
+.sectionBg
+{
+    background-color: #f7f7f7;
+    padding: 10px;
+    width: 100%;
+}
+.photoSectionBg
+{
+    background-color: #f7f7f7;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 240px;
+    height: 116px;
+}
+div.hr
+{
+    height: 1px;
+    background: #666666 no-repeat scroll center;
+    margin: 10px 0px 10px 0px;
+}
+div.hr hr
+{
+    display: none;
+}
+
+/*Forms CSS*/
+.grid
+{
+    border: 1px solid #666666;
+    border-bottom: 2px solid #333333;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gridHeader
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff !important;
+    padding: 10px;
+    background-color: Gray;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+.gridHeaderEnrolment
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+    background-color: Gray;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+}
+
+.gridHeader a
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.gridHeader a:active
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.gridHeader a:link
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.gridHeader a:hover
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.gridHeader a:visited
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.gridRow
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    padding: 5px;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+}
+.gridRowEnrolment
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #333333;
+    padding: 5px;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+}
+.gridAltRow
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+}
+
+.pager
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align:center;
+    color: #ffffff;
+    padding: 5px;
+    background-color: Gray;
+    border: 1px solid #666666;
+    border-collapse: collapse;
+}
+.pager td
+{
+    text-align:left;
+    height:25px;
+    
+}
+.pager a
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.pager a:active
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.pager a:link
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.pager a:hover
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.pager a:visited
+{
+    font-family: tahoma,Verdana, Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px;
+}
+.panelHeading
+{
+    font-family: tahoma, Verdana, Tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: Blue;
+}
+.grid td
+{
+    padding: 5px;
+}
+.logoBox
+{
+    width: 113px; height: 75px; text-align: center; border: 1px solid #ADD1DC; padding:10px 0;
+}
+
+.minRow
+{
+    clear: both;
+  
+    height: auto;
+    overflow: hidden;
+    padding: 0px;
+    margin:6px 0;
+    border-bottom:1px dotted #ccc;
+}
+
+.nameTitle
+{
+    font-family: Arial, Verdana;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #333333;
+  
+    overflow: hidden;
+    text-align: left;
+}
+.nameTitle a{color:#333}
+.nameTitle a:hover{color:#333}
+
+.team { border: 1px #b4ce7d dashed; background-color: #f5faed; margin: 10px 23px; width: 170px; height: 190px; text-align: center; opacity: 0.9; filter: alpha(opacity=90); /* For IE8 and earlier */ float: left; padding: 8px 5px;}
+.team dt { font-weight: bold; margin-top: 7px; color: #bf690b;}
+.team dt a img { height: 130px; width: 150px; border:0}
+.team dd {  margin: 0px; padding: 0px;}
+
+.teamphoto {color:#718a21; font-weight:bold;}
+.teamphoto_img {border:1px solid #b4ce7d; padding:2px; margin-bottom:5px; width:150px; height:100px}
+
+#scroller_container {position: relative; width: 700px; height: 30px; overflow: hidden;}
+#mycrawler {white-space: nowrap;font-size: 13px;}
+#mycrawler p {padding: 0;}

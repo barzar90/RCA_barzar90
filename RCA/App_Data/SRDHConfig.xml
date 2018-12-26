@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SRDHConfig>
+  <Link Value="http://srdh.maharashtra.gov.in/searchsrdh/rest/searchSRDHReq">
+  </Link>
+  <Token Value="Z2F6ZXR0ZWVyX01haGFyYXNodHJh">
+  </Token>
+</SRDHConfig>

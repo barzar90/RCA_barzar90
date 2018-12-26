@@ -1,0 +1,27 @@
+/*.bannerControlContain {
+width: 100%;
+height: 100px;
+z-index: 993900;
+position: fixed;
+top:175px;
+}
+
+.peopleControls {
+top: 300px !important;
+}*/
+.bannerControlContain .bannerControl {top: 0;}
+.bcLeft {left: 0;}
+.bcRight {right: 0;}
+.bannerControl {position: absolute;top: 247px;z-index: 9990000;width: 70px;height: 80px; }
+.bannerControl a, .bannerControl a:visited {color:#fff !important; }
+#dvPrev{position:fixed; top:300px;}
+#dvNext{position:fixed; top:300px;}
+.bcLeft .bcArrow {background: url(../../Images/utility-sprites.png) no-repeat -77px -92px;width: 100%;height: 100%;}
+.bcRight .bcArrow {background: url(../../Images/utility-sprites.png) no-repeat  -7px -88px;width: 100%;height: 100%;}
+.prevPreview {left: -100px;}
+.nextPreview {right: -100px;}
+.portPreview { z-index:10;height: 80px;width: 100px;position: absolute;top: 0;}
+.bcLeft .portPreviewImage {left:0px;}
+.bcRight .portPreviewImage {right: 0px;}
+.portPreviewImage {position: absolute; top: 3px;width: 95px;height:64px;padding:5px;vertical-align:middle !important;border:0px solid #981515;color:#fff; text-align:center; margin:auto;  background:#605b25;}
+.portPreviewImage a, .portPreviewImage a:visited{color:#fff; margin-top:5px; float:left; vertical-align:middle;}

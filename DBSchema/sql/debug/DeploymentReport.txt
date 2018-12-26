@@ -1,0 +1,81 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[MOLImages]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       [dbo].[aspnet_Applications].[aspnet_Applications_Index] on [dbo].[aspnet_Applications]
+       [dbo].[aspnet_Membership].[aspnet_Membership_index] on [dbo].[aspnet_Membership]
+       [dbo].[aspnet_Paths].[aspnet_Paths_index] on [dbo].[aspnet_Paths]
+       [dbo].[aspnet_PersonalizationPerUser].[aspnet_PersonalizationPerUser_index1] on [dbo].[aspnet_PersonalizationPerUser]
+       [dbo].[aspnet_Roles].[aspnet_Roles_index1] on [dbo].[aspnet_Roles]
+       [dbo].[aspnet_Users].[aspnet_Users_Index] on [dbo].[aspnet_Users]
+     Possible data issues
+       The column [dbo].[MOLMenus].[TT] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[aspnet_Users].[missing_index_21255_21254] (Index)
+       [dbo].[aspnet_Users].[missing_index_21257_21256] (Index)
+       [dbo].[aspnet_Users].[missing_index_21260_21259] (Index)
+       [dbo].[aspnet_Users].[missing_index_6481_6480] (Index)
+       unnamed constraint on [dbo].[MOLImages] (Default Constraint)
+       unnamed constraint on [dbo].[aspnet_Membership] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_Membership] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_Paths] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_PersonalizationAllUsers] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_PersonalizationPerUser] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_PersonalizationPerUser] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_Profile] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_Roles] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_Users] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_UsersInRoles] (Foreign Key)
+       unnamed constraint on [dbo].[aspnet_UsersInRoles] (Foreign Key)
+     Alter
+       [aspnet_Membership_BasicAccess] (Role)
+       [aspnet_Membership_FullAccess] (Role)
+       [aspnet_Membership_ReportingAccess] (Role)
+       [aspnet_Personalization_BasicAccess] (Role)
+       [aspnet_Personalization_FullAccess] (Role)
+       [aspnet_Personalization_ReportingAccess] (Role)
+       [aspnet_Profile_BasicAccess] (Role)
+       [aspnet_Profile_FullAccess] (Role)
+       [aspnet_Profile_ReportingAccess] (Role)
+       [aspnet_Roles_BasicAccess] (Role)
+       [aspnet_Roles_FullAccess] (Role)
+       [aspnet_Roles_ReportingAccess] (Role)
+       [aspnet_WebEvent_FullAccess] (Role)
+       [dbo].[MOLMenus] (Table)
+     Table rebuild
+       [dbo].[MOLImages] (Table)
+     Create
+       [dbo].[aspnet_Applications].[aspnet_Applications_Index] (Index)
+       [dbo].[aspnet_Membership].[aspnet_Membership_index] (Index)
+       [dbo].[aspnet_Paths].[aspnet_Paths_index] (Index)
+       [dbo].[aspnet_PersonalizationPerUser].[aspnet_PersonalizationPerUser_index1] (Index)
+       [dbo].[aspnet_PersonalizationPerUser].[aspnet_PersonalizationPerUser_ncindex2] (Index)
+       [dbo].[aspnet_Roles].[aspnet_Roles_index1] (Index)
+       [dbo].[aspnet_Users].[aspnet_Users_Index] (Index)
+       [dbo].[aspnet_Users].[aspnet_Users_Index2] (Index)
+       [dbo].[aspnet_UsersInRoles].[aspnet_UsersInRoles_index] (Index)
+
+** Supporting actions
+
+The column [dbo].[MOLMenus].[TT] is being dropped, data loss could occur.
+If this deployment is executed, changes to [aspnet_Membership_BasicAccess] might introduce run-time errors in [aspnet_Membership_BasicAccess].
+If this deployment is executed, changes to [aspnet_Membership_FullAccess] might introduce run-time errors in [aspnet_Membership_BasicAccess].
+If this deployment is executed, changes to [aspnet_Membership_FullAccess] might introduce run-time errors in [aspnet_Membership_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Membership_ReportingAccess] might introduce run-time errors in [aspnet_Membership_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Personalization_BasicAccess] might introduce run-time errors in [aspnet_Personalization_BasicAccess].
+If this deployment is executed, changes to [aspnet_Personalization_FullAccess] might introduce run-time errors in [aspnet_Personalization_BasicAccess].
+If this deployment is executed, changes to [aspnet_Personalization_FullAccess] might introduce run-time errors in [aspnet_Personalization_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Personalization_ReportingAccess] might introduce run-time errors in [aspnet_Personalization_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Profile_BasicAccess] might introduce run-time errors in [aspnet_Profile_BasicAccess].
+If this deployment is executed, changes to [aspnet_Profile_FullAccess] might introduce run-time errors in [aspnet_Profile_BasicAccess].
+If this deployment is executed, changes to [aspnet_Profile_FullAccess] might introduce run-time errors in [aspnet_Profile_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Profile_ReportingAccess] might introduce run-time errors in [aspnet_Profile_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Roles_BasicAccess] might introduce run-time errors in [aspnet_Roles_BasicAccess].
+If this deployment is executed, changes to [aspnet_Roles_FullAccess] might introduce run-time errors in [aspnet_Roles_BasicAccess].
+If this deployment is executed, changes to [aspnet_Roles_FullAccess] might introduce run-time errors in [aspnet_Roles_ReportingAccess].
+If this deployment is executed, changes to [aspnet_Roles_ReportingAccess] might introduce run-time errors in [aspnet_Roles_ReportingAccess].
+

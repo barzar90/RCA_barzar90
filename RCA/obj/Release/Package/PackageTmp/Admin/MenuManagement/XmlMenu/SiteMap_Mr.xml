@@ -1,0 +1,49 @@
+<ul>
+  <li>
+    <a href="~/1009/Home">मुख्य पृष्ठ</a>
+  </li>
+  <li>
+    <a href="~/1020/About-Us">आमच्या विषयी</a>
+  </li>
+  <li>
+    <a href="~/1010/Rent-Control-Act">महाराष्ट्र भाडे नियंत्रण कायदा</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="http://dgps.maharashtra.gov.in?MenuID=1011">अधिसूचना</a>
+  </li>
+  <li>
+    <a href="~/1012/Citizen-Charter">नागरिकांची सनद</a>
+  </li>
+  <li>
+    <a href="#">आदेश/न्यायनिवाडे </a>
+    <ul>
+      <li>
+        <a href="~/1014/Pune">पुणे </a>
+      </li>
+      <li>
+        <a href="~/1015/Nashik"> नाशिक</a>
+      </li>
+      <li>
+        <a href="~/1016/Amravati">अमरावती</a>
+      </li>
+      <li>
+        <a href="~/1017/Konkan"> कोकण</a>
+      </li>
+      <li>
+        <a href="~/1018/Aurangabad">औरंगाबाद</a>
+      </li>
+      <li>
+        <a href="~/1019/Nagpur">नागपूर</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="https://aaplesarkar.maharashtra.gov.in/en/?MenuID=1028">तक्रार नोंदवा</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="~/Site/Home/CaseTracking.aspx?MenuID=1029">प्रकरण पडताळणी </a>
+  </li>
+  <li>
+    <a href="~/1021/Contact-Us">संपर्क साधा</a>
+  </li>
+</ul>

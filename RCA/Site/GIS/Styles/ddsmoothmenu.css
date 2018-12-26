@@ -1,0 +1,125 @@
+.ddsmoothmenu{
+font: normal 0.75em verdana;
+display:block;
+position:relative; z-index:9;
+float:right;
+width:1004px;
+ height:30px;
+ background-color:#49A92E;
+
+}
+
+.ddsmoothmenu ul{
+z-index:9;
+margin: 0; padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+position: relative;
+display: inline;
+float: left;
+
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+display: block;
+background:#49A92E; /*background of menu items (default state)*/
+color: white;
+padding: 7px 11px;
+text-decoration: none;
+z-index:9;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+color: white;
+}
+
+.ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background:#333333; 
+color: white;
+}
+
+.ddsmoothmenu ul li a:hover{
+background: #333333; /*background of menu items during onmouseover (hover state)*/
+color: white;
+margin:0px;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+margin-bottom:-10px;
+border-right:2px solid #452916;
+border-bottom:1px solid #452916;
+margin-left:0;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+margin-bottom:-1px;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+font: normal 12px verdana;
+min-width:100px;
+padding: 6px 15px;
+margin: 0px;
+border-bottom:2px solid #452916;
+
+white-space:nowrap;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */ 
+
+.downarrowclass{
+position:relative;
+ 
+margin-top:-5px;
+right: -8px;
+margin:5px 0px 0px 0px;
+overflow:auto;
+border:1px solid #FF0000;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 50%; margin-top:-2px;
+right: 15px;
+}
+
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0px; height: 0px;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.3;
+}

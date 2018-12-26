@@ -1,0 +1,105 @@
+﻿
+body
+{
+	margin: 0px 0px 0px 0px;
+	background-color: #dcdcdc;
+}
+.MessageSection
+{
+	border-right: thin blue groove;
+	border-top: thin blue groove;
+	list-style-position: inside;
+	border-left: thin blue groove;
+	border-bottom: thin blue groove;
+	font-family: verdana;
+	list-style-type: square;
+	background-color: #efefef;
+	position: absolute;
+	left: 608px;
+	top: 144px;
+	width:254px;
+	font-size:11px;
+}
+.MapTools
+{
+	position: absolute;
+	left:  50px;
+	top: 502px;
+	width: 355px;
+	height: 24px;
+	display: inline;
+	visibility: visible;
+	padding: 4px;
+	border-right: #DEDEDE 2px ridge;
+	border-top: #EFEFEF 1px ridge;
+	border-left: #EFEFEF 1px ridge;
+	border-bottom: #DEDEDE 2px ridge;
+	background-color: #e6e7e8;
+} 
+.waitmessage
+{	background-color: white;
+	left: 344px;
+	top: 179px;
+	width:150px;
+	position: absolute;
+	visibility:hidden;
+	z-index:100;
+	border: medium blue ridge;
+	font-family: Verdana,helvetica,Arial;
+	font-size: 12px;
+	}
+
+
+.MapSection
+{
+	position: absolute;
+	left: 15px;
+	top: 75px;
+	width: 1050px;
+	height: 650px;
+	display: inline;
+	visibility: visible;
+	z-index: 10;
+	border-right: #DEDEDE 2px ridge;
+	border-top: #EFEFEF 1px ridge;
+	border-left: #EFEFEF 1px ridge;
+	border-bottom: #DEDEDE 2px ridge;
+	background-color: #e6e7e8;
+	
+	border-collapse:collapse;
+}
+ 
+ 
+ 
+.leftMapBorder
+{
+	display:none;
+}
+
+.rightMapBorder
+{
+	display:none;
+}
+
+.SectionTitle
+{  display:none;
+	background-color: burlywood;
+	color: blue;
+	cursor: move;
+	font-weight: bold;
+	padding: 1px 1px 2px 1px;
+	font-family: Verdana,helvetica,Arial;
+	font-size: 12px;
+	font-weight: normal;
+	height: 18px;
+	padding: 1 10 1 1;
+}
+.Section
+{ 
+    padding: 0px;
+    display:block;
+ }
+ 
+ 
+ 
+ 

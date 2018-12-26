@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add_btn" xml:space="preserve">
+    <value>شامل کریں</value>
+  </data>
+  <data name="App_Error_Head" xml:space="preserve">
+    <value>سرور کی خرابی!</value>
+  </data>
+  <data name="App_Error_ReportUs" xml:space="preserve">
+    <value>ہمیں رپورٹ کریں</value>
+  </data>
+  <data name="App_Error_Text" xml:space="preserve">
+    <value>سرور نے عارضی غلطی کا سامنا کیا اور آپ کی درخواست مکمل نہیں کی.&lt;br/&gt; کچھ منٹ میں دوبارہ کوشش کریں. &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; اگر آپ ابھی بھی اس غلطی کو حاصل کرتے ہیں، تو براہ کرم سسٹم کے منتظم کو رپورٹ کریں.</value>
+  </data>
+  <data name="Back_btn" xml:space="preserve">
+    <value>پیچھے</value>
+  </data>
+  <data name="BannerHead" xml:space="preserve">
+    <value>بینر ہڈ</value>
+  </data>
+  <data name="btnABlack" xml:space="preserve">
+    <value>ایک</value>
+  </data>
+  <data name="btnAWhite" xml:space="preserve">
+    <value>ایک</value>
+  </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>واضح کریں</value>
+  </data>
+  <data name="btnCLear1" xml:space="preserve">
+    <value>واضح کریں</value>
+  </data>
+  <data name="btnCommSerch" xml:space="preserve">
+    <value>تلاش کریں</value>
+  </data>
+  <data name="btnContactUs" xml:space="preserve">
+    <value>ہم سے رابطہ کریں</value>
+  </data>
+  <data name="btnHome" xml:space="preserve">
+    <value>گھر</value>
+  </data>
+  <data name="btnlogin" xml:space="preserve">
+    <value>میں لاگ ان کریں</value>
+  </data>
+  <data name="btnreset" xml:space="preserve">
+    <value>ری سیٹ کریں</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>تلاش کریں</value>
+  </data>
+  <data name="btnSearchGR" xml:space="preserve">
+    <value>تلاش کریں</value>
+  </data>
+  <data name="btnSendComplaint" xml:space="preserve">
+    <value>شکایت بھیجیں</value>
+  </data>
+  <data name="btnSiteMap" xml:space="preserve">
+    <value>سائٹ کا نقشہ</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>جمع</value>
+  </data>
+  <data name="btn_Large" xml:space="preserve">
+    <value>+ایک</value>
+  </data>
+  <data name="btn_Larger" xml:space="preserve">
+    <value>++ایک</value>
+  </data>
+  <data name="btn_Medium" xml:space="preserve">
+    <value>ایک</value>
+  </data>
+  <data name="btn_Small" xml:space="preserve">
+    <value>-ایک</value>
+  </data>
+  <data name="btn_Smallest" xml:space="preserve">
+    <value>--ایک</value>
+  </data>
+  <data name="Cancel_btn" xml:space="preserve">
+    <value>منسوخ کریں</value>
+  </data>
+  <data name="CMSHeading" xml:space="preserve">
+    <value>سیمی سر</value>
+  </data>
+  <data name="CMSMoreHeading" xml:space="preserve">
+    <value>سیمی زیادہ سر</value>
+  </data>
+  <data name="Continue_btn" xml:space="preserve">
+    <value>جاری رہے</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>صارف بنائیں</value>
+  </data>
+  <data name="Delete_btn" xml:space="preserve">
+    <value>حذف کریں</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>مہا آن لائن کے محکمہ</value>
+  </data>
+  <data name="DeptLogo_Alt" xml:space="preserve">
+    <value>فنانس ڈیپارٹمنٹ لوگو</value>
+  </data>
+  <data name="DeptLogo_Title" xml:space="preserve">
+    <value>محکمہ عنوان</value>
+  </data>
+  <data name="Edit_btn" xml:space="preserve">
+    <value>ترمیم</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ای میل</value>
+  </data>
+  <data name="ErrorHandlerMsg" xml:space="preserve">
+    <value>ہمیں تکلیف کے لئے افسوس ہے</value>
+  </data>
+  <data name="HajLogo_alt" xml:space="preserve">
+    <value>مہاراشٹر اسٹیٹ حج کمیٹی</value>
+  </data>
+  <data name="HeadLoginStatus" xml:space="preserve">
+    <value>لاگ آوٹ</value>
+  </data>
+  <data name="HyperLink1" xml:space="preserve">
+    <value>پاس ورڈ تبدیل کریں</value>
+  </data>
+  <data name="imgMahaOnline_alt" xml:space="preserve">
+    <value>مہا آن لائن لمیٹڈ</value>
+  </data>
+  <data name="ImportantLink" xml:space="preserve">
+    <value>اہم لنک</value>
+  </data>
+  <data name="KeyPerson" xml:space="preserve">
+    <value>اہم شخص</value>
+  </data>
+  <data name="KeyPersonHeader" xml:space="preserve">
+    <value>اہم شخص</value>
+  </data>
+  <data name="LblAddress" xml:space="preserve">
+    <value>ایڈریس</value>
+  </data>
+  <data name="lblAlbum" xml:space="preserve">
+    <value>تصویر گیلری، نگارخانہ</value>
+  </data>
+  <data name="lblAmendmentDocName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="lblCircular" xml:space="preserve">
+    <value>سرکلر</value>
+  </data>
+  <data name="lblCommFromDate" xml:space="preserve">
+    <value>اس تاریخ سے</value>
+  </data>
+  <data name="LblCommisionerateOrders" xml:space="preserve">
+    <value>کمشنریٹ حکم</value>
+  </data>
+  <data name="lblCommToDate" xml:space="preserve">
+    <value>تاریخ تک</value>
+  </data>
+  <data name="lblComplaintPageTitle" xml:space="preserve">
+    <value>Online Grivience</value>
+  </data>
+  <data name="lblComplaintPageTitle1" xml:space="preserve">
+    <value>Online Grivience</value>
+  </data>
+  <data name="lblComp_Address" xml:space="preserve">
+    <value>ایڈریس</value>
+  </data>
+  <data name="lblComp_Captcha" xml:space="preserve">
+    <value>مندرجہ ذیل فہرست میں دوسرا نمبر کیا ہے &lt;/br&gt;</value>
+  </data>
+  <data name="lblComp_Complaints" xml:space="preserve">
+    <value>شجاعت / شکایات</value>
+  </data>
+  <data name="lblComp_Country" xml:space="preserve">
+    <value>ملک</value>
+  </data>
+  <data name="lblComp_Department" xml:space="preserve">
+    <value>شعبہ</value>
+  </data>
+  <data name="lblComp_District" xml:space="preserve">
+    <value>ضلع</value>
+  </data>
+  <data name="lblComp_EmailId" xml:space="preserve">
+    <value>ای میل کا پتہ</value>
+  </data>
+  <data name="lblComp_FullName" xml:space="preserve">
+    <value>پورا نام</value>
+  </data>
+  <data name="lblComp_MobileNo" xml:space="preserve">
+    <value>موبائل نمبر</value>
+  </data>
+  <data name="lblComp_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lblComp_SubTypesofSocieties" xml:space="preserve">
+    <value>Sub Types Of Societies</value>
+  </data>
+  <data name="lblComp_Taluka" xml:space="preserve">
+    <value>Taluka</value>
+  </data>
+  <data name="lblComp_TypeofComplaint" xml:space="preserve">
+    <value>Types Complaint</value>
+  </data>
+  <data name="lblCopyright" xml:space="preserve">
+    <value>Website owned by Maharashtra Fire Services, India</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblCourtOrders" xml:space="preserve">
+    <value>Court Orders</value>
+  </data>
+  <data name="lblCreatedDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblDepartment" xml:space="preserve">
+    <value>شعبہ</value>
+  </data>
+  <data name="lbldepName" xml:space="preserve">
+    <value>مہاراشٹر اسٹیٹ حج کمیٹی، مہاراشٹر حکومت</value>
+  </data>
+  <data name="LblDistrict" xml:space="preserve">
+    <value>ضلع</value>
+  </data>
+  <data name="lblDivision" xml:space="preserve">
+    <value>ڈویژن</value>
+  </data>
+  <data name="lblDocName" xml:space="preserve">
+    <value>دستاویز کا نام</value>
+  </data>
+  <data name="lblDocType" xml:space="preserve">
+    <value>دستاویز کی قسم</value>
+  </data>
+  <data name="lblDocumentType" xml:space="preserve">
+    <value>دستاویز کی قسم</value>
+  </data>
+  <data name="lblEmailId" xml:space="preserve">
+    <value>EmailId</value>
+  </data>
+  <data name="lblFactoryType" xml:space="preserve">
+    <value>Factory Type</value>
+  </data>
+  <data name="lblFeedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="lblFromDate" xml:space="preserve">
+    <value>FromDate</value>
+  </data>
+  <data name="lblHomeHeading" xml:space="preserve">
+    <value>Home Heading</value>
+  </data>
+  <data name="lblHonourableMinisterHeading" xml:space="preserve">
+    <value>Honourable Minister</value>
+  </data>
+  <data name="lblKeyPersonMsg" xml:space="preserve">
+    <value>Message...</value>
+  </data>
+  <data name="lblKeywordsearch" xml:space="preserve">
+    <value>Keyword Search</value>
+  </data>
+  <data name="lblKKeywordSearch" xml:space="preserve">
+    <value>KeyWord Search</value>
+  </data>
+  <data name="LblMobileNo" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblNews" xml:space="preserve">
+    <value>تازہ ترین خبریں</value>
+  </data>
+  <data name="lblNewsMore" xml:space="preserve">
+    <value>More News Update</value>
+  </data>
+  <data name="lblNewUserRegister" xml:space="preserve">
+    <value>Click here for new user registration</value>
+  </data>
+  <data name="lblPath" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="lblReprint" xml:space="preserve">
+    <value>Reprints of the Act</value>
+  </data>
+  <data name="Lblseason" xml:space="preserve">
+    <value>Season</value>
+  </data>
+  <data name="Lblstate" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="LblTaluka" xml:space="preserve">
+    <value>Tahasil</value>
+  </data>
+  <data name="lblText" xml:space="preserve">
+    <value>MILL-WISE AND SEASON-WISE STOCK OF LEVY AND NON LEVY SUGAR AS ON 30-09-2011 [Quantity in M.T.]</value>
+  </data>
+  <data name="lblTextCapachAns" xml:space="preserve">
+    <value>Enter Answer</value>
+  </data>
+  <data name="lblTitelDownloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="lblTitelMantriSamiti" xml:space="preserve">
+    <value>Mantri Samitee Meeting Proceedings</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>GOM: Home Page</value>
+  </data>
+  <data name="lblTitleGetSugarListFactories" xml:space="preserve">
+    <value>List Of Sugar Factories</value>
+  </data>
+  <data name="lblTittleLawsByAct" xml:space="preserve">
+    <value>Laws By Laws Act</value>
+  </data>
+  <data name="lblTodate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="lbl_AmendmentsTitle" xml:space="preserve">
+    <value>کوآپریٹو ایکٹ میں ترمیم</value>
+  </data>
+  <data name="lbl_AwardsTitle" xml:space="preserve">
+    <value>ایوارڈ اور کامیابی</value>
+  </data>
+  <data name="lbl_copyright" xml:space="preserve">
+    <value>© یہ مہاراشٹر حکومت، قانون اور عدلیہ کے محکمہ کی سرکاری ویب سائٹ ہے. جملہ حقوق محفوظ ہیں.</value>
+  </data>
+  <data name="lbl_Feedback" xml:space="preserve">
+    <value>تاثرات</value>
+  </data>
+  <data name="lbl_GR" xml:space="preserve">
+    <value>جی آر / سرکلر / قانون سازی</value>
+  </data>
+  <data name="lbl_GRHeading" xml:space="preserve">
+    <value>جی آر / سرکلر / قانون سازی</value>
+  </data>
+  <data name="lbl_GRTitle" xml:space="preserve">
+    <value>حکومت کے حل</value>
+  </data>
+  <data name="lbl_headTitle" xml:space="preserve">
+    <value>مہاراشٹر اسٹیٹ حج کمیشن&lt;br/&gt;&lt;span&gt;مہاراشٹر حکومت&lt;/span&gt;</value>
+  </data>
+  <data name="lbl_mahaonline" xml:space="preserve">
+    <value>مہا آن لائن لمیٹڈ کی طرف سے برقرار رکھا.</value>
+  </data>
+  <data name="lbl_RTIPageDetail" xml:space="preserve">
+    <value>معلومات کا حق (آرٹیآئٹی)</value>
+  </data>
+  <data name="lbl_skipToContent" xml:space="preserve">
+    <value>مواد پر جائیں</value>
+  </data>
+  <data name="lbl_skipToNav" xml:space="preserve">
+    <value>نیویگیشن پر جائیں</value>
+  </data>
+  <data name="lbl_SugarReleaseOrderTitle" xml:space="preserve">
+    <value>شوگر ریلیز آرڈر</value>
+  </data>
+  <data name="lbl_Tenders" xml:space="preserve">
+    <value>نردجیکرن</value>
+  </data>
+  <data name="lbl_welcome" xml:space="preserve">
+    <value>مہاراشٹر آگ سروس، بھارت میں خوش آمدید</value>
+  </data>
+  <data name="lnkArchives" xml:space="preserve">
+    <value>Archives</value>
+  </data>
+  <data name="lnkCitizenCharter" xml:space="preserve">
+    <value>Citizen Charter</value>
+  </data>
+  <data name="lnkCulture" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lnkFAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="lnkPrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="lnkRTI" xml:space="preserve">
+    <value>RTI</value>
+  </data>
+  <data name="MaharashtraLogo_alt" xml:space="preserve">
+    <value>Government of Maharashtra</value>
+  </data>
+  <data name="MaharashtraLogo_Title" xml:space="preserve">
+    <value>Maharashtra Logo Title</value>
+  </data>
+  <data name="NationalEmblem_alt" xml:space="preserve">
+    <value>Government of India</value>
+  </data>
+  <data name="New_btn" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="OtherLink" xml:space="preserve">
+    <value>Other Link</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Print_btn" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="QuickLink" xml:space="preserve">
+    <value>Quick Link</value>
+  </data>
+  <data name="RetypePassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Save_btn" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="searchBTN" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Search_btn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SiteHeader_Alt" xml:space="preserve">
+    <value>Site Header Logo</value>
+  </data>
+  <data name="SiteHeader_Title" xml:space="preserve">
+    <value>Site Header Title</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>436885, 987809, 51994</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>/معلومات</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Maharashtra Fire Services</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="lbl_developedby" xml:space="preserve">
+    <value>کی طرف سے تیار:</value>
+  </data>
+</root>

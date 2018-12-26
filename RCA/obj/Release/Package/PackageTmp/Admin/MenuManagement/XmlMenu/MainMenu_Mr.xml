@@ -1,0 +1,49 @@
+<ul class="nav navbar-nav">
+  <li>
+    <a href="~/Site/Home/Index.aspx">मुख्य पृष्ठ</a>
+  </li>
+  <li>
+    <a href="~/1020/About-Us">आमच्या विषयी</a>
+  </li>
+  <li>
+    <a href="~/1010/Rent-Control-Act">महाराष्ट्र भाडे नियंत्रण कायदा</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="http://dgps.maharashtra.gov.in">अधिसूचना</a>
+  </li>
+  <li>
+    <a href="~/1012/Citizen-Charter">नागरिकांची सनद</a>
+  </li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">आदेश/न्यायनिवाडे <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li>
+        <a href="~/1014/Pune">पुणे </a>
+      </li>
+      <li>
+        <a href="~/1015/Nashik"> नाशिक</a>
+      </li>
+      <li>
+        <a href="~/1016/Amravati">अमरावती</a>
+      </li>
+      <li>
+        <a href="~/1017/Konkan"> कोकण</a>
+      </li>
+      <li>
+        <a href="~/1018/Aurangabad">औरंगाबाद</a>
+      </li>
+      <li>
+        <a href="~/1019/Nagpur">नागपूर</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="https://aaplesarkar.maharashtra.gov.in/en/">तक्रार नोंदवा</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="~/Site/Home/CaseTracking.aspx">प्रकरण पडताळणी </a>
+  </li>
+  <li>
+    <a href="~/1021/Contact-Us">संपर्क साधा</a>
+  </li>
+</ul>

@@ -1,0 +1,190 @@
+﻿.InfoSection
+{
+	visibility:hidden;
+	left: 1px; 
+	top: 1px; 
+	position: absolute;
+	width: 388px;
+	z-index: 142;
+	
+}
+.LayerName
+{
+    width:99%;
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+	font-family: @Arial Unicode MS;
+	padding-left:5px;
+	text-decoration :'blink';
+	
+	 /*Border
+	border-width:1px;
+	border-color:Black;
+	border-style:solid;
+    */
+}
+.FeatureTable
+{
+   
+    border-width:1px;
+	border-color:Black;
+	border-style:solid;
+	padding-left:10px;
+}
+.FeaturesAttHeader
+{
+    font-family: @Arial Unicode MS;
+    font-size: 15px;
+    display:block;
+    white-space:pre-line;
+    width:100%;
+  
+    
+     /*Border
+    border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+    */
+  
+}
+.InfoType
+{
+	font-size: 10px;
+	color:Black;
+	font-family: @Arial Unicode MS;
+}
+.InfoName
+{
+	
+	font-size: 13px;
+	color: black;
+	width:100px;
+	font-family: @Arial Unicode MS;
+    padding-left:2px;
+     
+    /*Border */
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+	
+    border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:Black;
+
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:Black;
+
+	
+    
+}
+.InfoNameFirstRow
+{
+	
+	font-size: 13px;
+	color: black;
+	width:100px;
+	font-family: @Arial Unicode MS;
+    padding-left:2px;
+     
+    /*Border */
+    
+    border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:Black;
+	
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+	
+    border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:Black;
+
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:Black;
+
+	
+    
+}
+.InfoValue
+{
+	font-weight: normal;
+	font-size: 13px;
+	font-family:@Arial Unicode MS;
+	color:Black;
+	width:150px;
+	padding-left:2px;
+	
+    /*Border */
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+
+    border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:Black;
+	
+}
+.InfoValueFirstRow
+{
+	font-weight: normal;
+	font-size: 13px;
+	font-family:@Arial Unicode MS;
+	color:Black;
+	width:150px;
+	padding-left:2px;
+	
+    /*Border */
+    border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:Black;
+
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+
+    border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:Black;
+	
+}
+.InfoEmpty
+{
+	
+	width:5px;
+    /*Border
+    border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:Black;
+    */
+	
+	}
+.pointercorner
+{
+	z-index: 100;
+	background-image: url(../images/InfoTool/topBorder.gif);
+	background-repeat: repeat-x;
+}
+
+
+.bubbleContent
+{
+background-color:#ffffff;
+border-style:solid;
+border-color:Black;
+border-width:1px;
+border-top-style:none;
+z-index:95;
+
+}
+.bubbleTop
+{
+	border-bottom-style:solid;
+	border-bottom-color:Black;
+	border-bottom-width:1px;
+	
+}
+

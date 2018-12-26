@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>परवलीच्या शब्दाची खातरजमा</value>
+  </data>
+  <data name="CurrentSessionExpired" xml:space="preserve">
+    <value>जोडणीची वेळ समाप्ती</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>काढून टाकणे</value>
+  </data>
+  <data name="DifferentUserName" xml:space="preserve">
+    <value>कृपया निराळे वापरकर्त्याचे नाव नोंदवा</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>बदल करा</value>
+  </data>
+  <data name="ErrorMenuMaster" xml:space="preserve">
+    <value>कृपया पॅरेंट मेनुचे नाव नोंदवा</value>
+  </data>
+  <data name="ErrorMenuName" xml:space="preserve">
+    <value>कृपया मेनुचे नाव नोंदवा</value>
+  </data>
+  <data name="ErrorMenuNameMarathi" xml:space="preserve">
+    <value>कृपया मेनुचे मराठी नाव नोंदवा</value>
+  </data>
+  <data name="ErrorPassword" xml:space="preserve">
+    <value>कृपया परवलीचा शब्द नोंदवा</value>
+  </data>
+  <data name="ErrorPasswordPattern" xml:space="preserve">
+    <value>परवलीच्या शब्दात कमीतकमी ८ अक्षरे आणि १ कॅपिटल अक्षर आणि १ स्पेशल अक्षर व १ अंक असावा.</value>
+  </data>
+  <data name="ErrorRole" xml:space="preserve">
+    <value>कृपया वापरकर्त्याची भुमिका नोंदवा</value>
+  </data>
+  <data name="ErrorUserName" xml:space="preserve">
+    <value>कृपया वापरकर्त्याची ओळख नोंदवा</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>अयशस्वी झाले</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>परवलीचा शब्द विसरलात?</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>अनु क्रं.</value>
+  </data>
+  <data name="lblNews" xml:space="preserve">
+    <value>अद्ययावत बातम्या</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>लिंक</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>प्रवेश करा</value>
+  </data>
+  <data name="LoginText" xml:space="preserve">
+    <value>प्रवेश करा</value>
+  </data>
+  <data name="MenucannothavesameParent" xml:space="preserve">
+    <value>मेनूला एकसारखा पॅरेंट नसू शकतो</value>
+  </data>
+  <data name="MenuMaster" xml:space="preserve">
+    <value>मेनू नियंत्रक</value>
+  </data>
+  <data name="MenuName" xml:space="preserve">
+    <value>मेनुचे नाव</value>
+  </data>
+  <data name="MenuNameAlreadyExist" xml:space="preserve">
+    <value>मेनूचे नाव आधीच अस्तितवात आहे</value>
+  </data>
+  <data name="MenuNameMarathi" xml:space="preserve">
+    <value>मेनूचे नाव मराठीत</value>
+  </data>
+  <data name="Morethan3Attempts" xml:space="preserve">
+    <value>३ पेक्षा अधिक वेळा सत्र प्रवेश प्रयत्न अवैध आहे</value>
+  </data>
+  <data name="ParentName" xml:space="preserve">
+    <value>पॅरेंट मेनुचे नाव</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>परवलीचा शब्द</value>
+  </data>
+  <data name="PasswordAndConfirmPasswordNotMatched" xml:space="preserve">
+    <value>परवलीचा नवा शब्द आणि खातरजमेचा परवलीचा शब्द जुळत नाही</value>
+  </data>
+  <data name="PermissionMaster" xml:space="preserve">
+    <value>अधिकार नियंत्रक</value>
+  </data>
+  <data name="PermissionOrMenu" xml:space="preserve">
+    <value>अधिकार / मेनू</value>
+  </data>
+  <data name="Read" xml:space="preserve">
+    <value>वाचणे</value>
+  </data>
+  <data name="Recordaddedsuccessfully" xml:space="preserve">
+    <value>नोंद यशस्वीरित्या समाविष्ट झाली</value>
+  </data>
+  <data name="RecordUpdatedsuccessfully" xml:space="preserve">
+    <value>नोंद यशस्वीरित्या अद्ययावत झाली</value>
+  </data>
+  <data name="ResetButton" xml:space="preserve">
+    <value>पुनर्स्थित</value>
+  </data>
+  <data name="RoleMaster" xml:space="preserve">
+    <value>भुमिका नियंत्रक</value>
+  </data>
+  <data name="RoleName" xml:space="preserve">
+    <value>भूमिकेचे नाव</value>
+  </data>
+  <data name="RoleNameAlreadyExist" xml:space="preserve">
+    <value>भूमिकेचे नाव आधीच अस्तितवात आहे</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>जतन करा</value>
+  </data>
+  <data name="SavedSuccessfully" xml:space="preserve">
+    <value>वापरकर्ता यशस्वीरित्या समाविष्ट झाला</value>
+  </data>
+  <data name="SessionExpired" xml:space="preserve">
+    <value>सत्र कालावधी समाप्त !</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>वापरकर्त्याची ओळख</value>
+  </data>
+  <data name="UseridPasswordInvalid" xml:space="preserve">
+    <value>कृपया उचित तपशिलांची नोंद करा</value>
+  </data>
+  <data name="UserMaster" xml:space="preserve">
+    <value>वापरकर्ता नियंत्रक</value>
+  </data>
+  <data name="UserRole" xml:space="preserve">
+    <value>वापरकर्त्याची भुमिका</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>लिहिणे</value>
+  </data>
+</root>

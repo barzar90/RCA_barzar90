@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="100" xml:space="preserve">
+    <value>पुढे सुरू</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>प्रोटोकॉल स्विचिंग.</value>
+  </data>
+  <data name="200" xml:space="preserve">
+    <value>ठीक आहे. – ग्राहकाची विनंती पूर्ण झाली. वेब सर्व्हरने विनंती यशस्वीरित्या पूर्ण केल्याचे, स्टेटस कोड दर्शवितात. </value>
+  </data>
+  <data name="201" xml:space="preserve">
+    <value>निर्माण झाले </value>
+  </data>
+  <data name="202" xml:space="preserve">
+    <value>स्वीकारले</value>
+  </data>
+  <data name="203" xml:space="preserve">
+    <value>अनधिकृत माहिती</value>
+  </data>
+  <data name="204" xml:space="preserve">
+    <value>मजकूर नाही</value>
+  </data>
+  <data name="205" xml:space="preserve">
+    <value>मजकूर रिसेट करा.</value>
+  </data>
+  <data name="206" xml:space="preserve">
+    <value>अंशत: मजकूर</value>
+  </data>
+  <data name="302" xml:space="preserve">
+    <value>ऑब्जेक्ट हलविला.</value>
+  </data>
+  <data name="304" xml:space="preserve">
+    <value>फेरबदल केले नाहीत. ग्राहक त्याच्याकडेच असणाऱ्या दस्तऐवजाची मागणी करतो आणि ते त्याच्याकडेच असल्यामुळे त्यात फेरबदल झालेले नाहीत. दस्तऐवज सर्व्हरवरून डाऊनलोड करण्याऐवजी ग्राहक आपल्याकडे असणारी प्रतच वापरतो.   </value>
+  </data>
+  <data name="307" xml:space="preserve">
+    <value>तात्पुरते रि-डायरेक्ट केले</value>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>चुकीची विनंती</value>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>प्रवेश नाकारला</value>
+  </data>
+  <data name="401.1" xml:space="preserve">
+    <value>लॉग-इन असफल. लॉग-इन करायचा प्रयत्न असफल ठरला, कारण कदाचित वैध नसलेल्या युजर नेम किंवा पासवर्डचा वापर केला असेल.  </value>
+  </data>
+  <data name="401.2" xml:space="preserve">
+    <value>सर्व्हर कॉन्फिगरेशनमुळे लॉग-इन असफल.</value>
+  </data>
+  <data name="401.3" xml:space="preserve">
+    <value>रिसोर्सवरील एसीएल मुळे अनधिकृत.  हे, एनएफटीएस परवानगीबाबत समस्या असल्याचे दर्शविते. तुम्ही पोहोचू इच्छित असणाऱ्या फाईलची परवानगी योग्य असली, तरी हा दोष उद्भवू शकतो. जसे -  C:\Winnt\System32\Inetsrv directory वर आययुएसआर खात्याला प्रवेश नसल्यास तुम्हाला हा दोष उद्भवल्याचे दिसेल. </value>
+  </data>
+  <data name="401.4" xml:space="preserve">
+    <value>गाळणीमध्ये ऑथोरायझेशन असफल झाले. </value>
+  </data>
+  <data name="401.5" xml:space="preserve">
+    <value>आयएसएपीआय सीजीआय अॅप्लिकेशनने ऑथोरायझेशन असफल केले. </value>
+  </data>
+  <data name="401.7" xml:space="preserve">
+    <value>वेब सर्व्हरवरील युआरएल ऑथोरायझेशन धोरणाने प्रवेश नाकारला. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे. </value>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>निषिद्ध</value>
+  </data>
+  <data name="403.1" xml:space="preserve">
+    <value>एक्झिक्यूट प्रवेश निषिद्ध. या दोष संदेशांची पुढील दोन सामान्य कारणे आहेत 
+•	तुमच्याकडे पुरेशी एक्झिक्यूट परवानगी नाही. उदा. - निर्देशिकेमध्ये कोणासाठीही परवानगी सेट केलेली नाही, अशा एखाद्या  ASP पृष्ठावर प्रवेश करायचा प्रयत्न तुम्ही केल्यास किंवा केवळ परवानगी असणाऱ्या स्क्रिप्टसह तुम्ही निर्देशिकेत स्क्रिप्ट एक्झिक्यूट करण्याचा प्रयत्न करता, अशा वेळी तुम्हाला हा दोष संदेश प्राप्त होऊ शकेल. 
+•	तुम्ही एक्झिक्यूट करण्याचा प्रयत्न करीत असलेले फाईल प्रकाराचे स्क्रिप्ट मॅपिंग, तुम्ही वापरत असलेले व्हर्ब ओळखण्यास सेट केलेले नसल्यास (उदा. GET अथवा  POST )</value>
+  </data>
+  <data name="403.11" xml:space="preserve">
+    <value>अवैध कॉन्फिगरेशन.</value>
+  </data>
+  <data name="403.111" xml:space="preserve">
+    <value>पासवर्ड बदल.</value>
+  </data>
+  <data name="403.12" xml:space="preserve">
+    <value>मॅपरने प्रवेश नाकारला.  तुम्ही प्रवेश करू इच्छिणाऱ्या पृष्ठासाठी ग्राहक प्रमाणपत्र आवश्यक आहे, मात्र तुमच्या ग्राहक प्रमाणपत्राशी मॅप झालेल्या युजर आयडीला फाईल प्रवेश नाकारण्यात आला आहे.  </value>
+  </data>
+  <data name="403.13" xml:space="preserve">
+    <value>ग्राहक प्रमाणपत्र रद्द.</value>
+  </data>
+  <data name="403.14" xml:space="preserve">
+    <value>निर्देशिकेत समावेश नाकारला. </value>
+  </data>
+  <data name="403.15" xml:space="preserve">
+    <value>ग्राहक प्रवेश लायसन्स एक्सीड झाले. </value>
+  </data>
+  <data name="403.16" xml:space="preserve">
+    <value>ग्राहक प्रमाणपत्र विश्वासार्ह नाही अथवा अवैध आहे. </value>
+  </data>
+  <data name="403.17" xml:space="preserve">
+    <value>ग्राहक प्रमाणपत्र मुदतबाह्य झाले आहे अथवा अद्याप वैध नाही. </value>
+  </data>
+  <data name="403.18" xml:space="preserve">
+    <value>विनंती केलेले  URL सध्याच्या अॅप्लिकेशन पुलमध्ये एक्झीक्यूट करता येणार नाही. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.</value>
+  </data>
+  <data name="403.19" xml:space="preserve">
+    <value>या अॅप्लिकेशन पुलमध्ये ग्राहकासाठी CGIs एक्झीक्यूट करता येणार नाही. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.  </value>
+  </data>
+  <data name="403.2" xml:space="preserve">
+    <value>वाचन प्रवेश निषिद्ध. निर्देशिकेसाठी तुम्हाला वाचन प्रवेश असल्याची खातरजमा करा. तसेच तुम्ही डिफॉल्ट दस्तऐवज वापरत असल्यास , अशा प्रकारचे दस्तऐवज अस्तित्त्वात असल्याची खातरजमा करा. </value>
+  </data>
+  <data name="403.21" xml:space="preserve">
+    <value>पासपोर्ट लॉग-इन असफल. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.</value>
+  </data>
+  <data name="403.3" xml:space="preserve">
+    <value>लेखन प्रवेश निषिद्ध. निर्देशिकेसाठी तुम्हाला लेखन प्रवेश असल्याची खातरजमा करा.</value>
+  </data>
+  <data name="403.4" xml:space="preserve">
+    <value>एसएसएल आवश्यक. या पृष्ठावर जाण्यासाठी  HTTP ऐवजी  HTTPS चा वापर करा.</value>
+  </data>
+  <data name="403.5" xml:space="preserve">
+    <value>एसएसएल 128 आवश्यक.  </value>
+  </data>
+  <data name="403.6" xml:space="preserve">
+    <value>IP पत्ता नामंजूर.</value>
+  </data>
+  <data name="403.7" xml:space="preserve">
+    <value>ग्राहक प्रमाणपत्र आवश्यक. तुमच्याकडे वैध ग्राहक प्रमाणपत्र इन्स्टॉल केलेले नाही. </value>
+  </data>
+  <data name="403.8" xml:space="preserve">
+    <value>साईटवर प्रवेश नाकारला.</value>
+  </data>
+  <data name="403.9" xml:space="preserve">
+    <value>खूप जास्त वापरकर्ते आहेत. सर्व्हरशी जोडलेल्या वापरकर्त्यांची संख्या जोडणी मर्यादेपेक्षा जास्त आहे.  </value>
+  </data>
+  <data name="404" xml:space="preserve">
+    <value>सापडले नाही. तुम्ही प्रवेश करू इच्छित असणारी फाईल दुसरीकडे हलवली असल्यास अथवा डिलिट केलेली असल्यास हा दोष उद्भवतो. </value>
+  </data>
+  <data name="404.1" xml:space="preserve">
+    <value>विनंती केलेल्या पोर्टवरून संकेतस्थळावर प्रवेश करता येणार नाही. </value>
+  </data>
+  <data name="404.2" xml:space="preserve">
+    <value>वेब सेवा विस्तार लॉकडाऊन धोरण या विनंतीला रोखते. </value>
+  </data>
+  <data name="404.3" xml:space="preserve">
+    <value>MIME मॅप धोरण या विनंतीला रोखते. </value>
+  </data>
+  <data name="4041" xml:space="preserve">
+    <value>फाईल अथवा निर्देशिका सापडली नाही. </value>
+  </data>
+  <data name="405" xml:space="preserve">
+    <value>या पृष्ठावर प्रवेशासाठी वापरलेल्या HTTP व्हर्बला परवानगी नाही. (मेथड ला परवानगी नाही).</value>
+  </data>
+  <data name="406" xml:space="preserve">
+    <value>ग्राहकाचा ब्राउझर विनंती पृष्ठाचा MIME प्रकार स्वीकारत नाही. </value>
+  </data>
+  <data name="407" xml:space="preserve">
+    <value>प्रॉक्सी  ऑथेंटिकेशन आवश्यक. </value>
+  </data>
+  <data name="412" xml:space="preserve">
+    <value>प्री-कंडिशन असफल. </value>
+  </data>
+  <data name="413" xml:space="preserve">
+    <value>विनंती  एन्टीटी खूपच  व्यापक आहे.</value>
+  </data>
+  <data name="414" xml:space="preserve">
+    <value>विनंती - URL खूपच  लांब आहे.</value>
+  </data>
+  <data name="415" xml:space="preserve">
+    <value>मिडिया प्रकार आधार देत नाही. </value>
+  </data>
+  <data name="416" xml:space="preserve">
+    <value>विनंती केलेली रेंज समाधानकारक नाही. </value>
+  </data>
+  <data name="417" xml:space="preserve">
+    <value>एक्झिक्युशन असफल.</value>
+  </data>
+  <data name="423" xml:space="preserve">
+    <value>लॉक्ड दोष.</value>
+  </data>
+  <data name="500" xml:space="preserve">
+    <value>अंतर्गत सर्व्हर दोष. अनेक प्रकारच्या सर्व्हर-साईड दोषांमुळे तुम्हाला हा दोष संदेश दिसत असेल.   </value>
+  </data>
+  <data name="500.1" xml:space="preserve">
+    <value>अंतर्गत ASP दोष. जेव्हा तुम्ही कोडमध्ये दोष असणारे ASP पृष्ठ लोड करायचा प्रयत्न करता, तेव्हा तुम्हाला हा दोष-संदेश प्राप्त होतो.</value>
+  </data>
+  <data name="500.12" xml:space="preserve">
+    <value>वेब सर्व्हरवर रि-स्टार्ट होण्याच्या कामी अॅप्लिकेशन व्यस्त आहे. IIS अॅप्लिकेशन रि-स्टार्ट करण्याच्या प्रक्रियेत असताना तुम्ही ASP पृष्ठ लोड करायचा प्रयत्न केला असावा, असे यावरून दिसते. तुम्ही पृष्ठ रिफ्रेश केल्यानंतर हा संदेश दिसता कामा नये. तुम्ही पृष्ठ रिफ्रेश केल्यानंतरही हा संदेश दिसत असल्यास तुमची ग्लोबल .asa  फाईल स्कॅन करीत असणाऱ्या अॅन्टी-व्हायरस सॉफ्टवेअरमुळे  तसे होत असेल. </value>
+  </data>
+  <data name="500.13" xml:space="preserve">
+    <value>वेब सर्व्हर फार व्यस्त आहे.</value>
+  </data>
+  <data name="500.15" xml:space="preserve">
+    <value>ग्लोबल .asa  साठी थेट विनंतीला परवानगी नाही. </value>
+  </data>
+  <data name="500.16" xml:space="preserve">
+    <value>UNC ऑथोरायझेशन क्रिडेन्शीअल्स चुकीची आहेत. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.</value>
+  </data>
+  <data name="500.18" xml:space="preserve">
+    <value>URL ऑथोरायझेशन स्टोअर उघडता येणार नाही. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.</value>
+  </data>
+  <data name="501" xml:space="preserve">
+    <value>हेडर मूल्ये विनिर्दिष्ट करीत असलेले कॉन्फिगरेशन  लागू झालेले नाही. </value>
+  </data>
+  <data name="502" xml:space="preserve">
+    <value>खराब गेट-वे.  गेट-वे अथवा प्रॉक्सी म्हणून काम करताना वेब सर्व्हरला अवैध प्रतिसाद मिळाला. जेव्हा तुम्ही HTTP हेडरचा वैध संच परत करू न शकणारे  CGI  स्क्रिप्ट रन करण्याचा प्रयत्न करता, तेव्हा तुम्हाला हा दोष-संदेश प्राप्त होतो. </value>
+  </data>
+  <data name="502.1" xml:space="preserve">
+    <value>CGI अॅप्लिकेशन टाईमआऊट.</value>
+  </data>
+  <data name="502.2" xml:space="preserve">
+    <value>CGI अॅप्लिकेशनमध्ये दोष आहे.</value>
+  </data>
+  <data name="503" xml:space="preserve">
+    <value>सेवा उपलब्ध नाही. हा दोष संकेतांक आयआयएस 6.0 शी विनिर्दिष्ट आहे.</value>
+  </data>
+  <data name="504" xml:space="preserve">
+    <value>गेट-वे टाईमआऊट.</value>
+  </data>
+  <data name="505" xml:space="preserve">
+    <value>HTTP व्हर्जन आधार देत नाही.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>

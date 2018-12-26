@@ -1,0 +1,24 @@
+﻿/*--------------- Login Window --------------*/
+.innerCont { padding: 10px 14px 10px 6px; text-align: justify; line-height: 22px;}
+.loginBlock { background: #FFF; padding: 20px 25px 7px; width: 300px; height: auto; margin: 120px auto; border-top: 1px solid #9ab7cb; border-left: 1px solid #9ab7cb; 
+              border-right: 3px solid #9ab7cb; border-bottom: 3px solid #9ab7cb; clear: both; border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; 
+              -webkit-border-radius: 10px;  behavior: url(ie-css3.htc); clear: both; }
+.loginTab { padding: 10px 0px 0px;}
+.loginTab tr td { height: 20px; padding-top: 15px; padding-bottom: 8px;}
+.forgotPwd { font-size: 11px; padding: 20px 0px 8px; color: #aeaeae;}
+.loginError { padding: 0px 0px 0px 98px; font-size: 0.98em; color: #ff0000; display: block; height: 27px;}
+.buttonRow { padding: 15px 0px 0px;}
+
+/*--------------- END Login Window --------------*/
+
+/*--------- Login Control CSS --------------*/
+
+.btnBG { border: none; background: #000; border: 1px solid #000; font-size: 11px; font-weight: bold; color: #FFF; text-align: center; width: auto; height: 24px; padding: 0px 10px; cursor: pointer;}
+.errorMSG { color: Red; font-size: 11px;}
+.buttonPad { padding: 10px 0px 8px;}
+.tabLogin { padding: 15px 0px 0px;}
+.loginHeading { font-size: 15px; font-weight: bold; color: #286680; border-bottom: 4px solid #e2e3e3; height: 26px;}
+
+.tableClass { border:1px solid #ebebeb !important; margin: 15px 0px 0px; }
+.tableClass tr th { background: #947769; height: 30px; color: #FFF; padding: 0px 8px; font-size: 12px; font-weight: bold; text-align: left;}
+.tableClass tr td { background: #fafafa; padding: 4px 8px; color: #474747; text-align: left; vertical-align: top;}

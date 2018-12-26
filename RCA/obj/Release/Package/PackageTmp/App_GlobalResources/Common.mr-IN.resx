@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Error_Head" xml:space="preserve">
+    <value>सर्व्हर दोष !</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="App_Error_ReportUs" xml:space="preserve">
+    <value>आम्हाला कळवा</value>
+  </data>
+  <data name="App_Error_Text" xml:space="preserve">
+    <value>सर्व्हरमध्ये तात्पुरता दोष उद्भवला आहे, त्यामुळे आपली विनंती पूर्ण होऊ शकत नाही. कृपया काही मिनिटांनंतर पुन्हा प्रयत्न करा. तुमच्यासमोर अजूनही हा दोष उद्भवत असल्यास कृपया सिस्टम अॅडमिनिस्ट्रेटरला त्याबाबत कळवा.</value>
+    <comment>App_Error.aspx</comment>
+  </data>
+  <data name="btnABlack" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btnABlackToolTip" xml:space="preserve">
+    <value>प्रखर दृश्य</value>
+  </data>
+  <data name="btnAWhite" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btnAWhiteToolTip" xml:space="preserve">
+    <value>सौम्य दृश्य</value>
+  </data>
+  <data name="btnContactUs" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="btnHome" xml:space="preserve">
+    <value>मुख्य पृष्ठ</value>
+  </data>
+  <data name="btnlogin" xml:space="preserve">
+    <value>लॉग इन</value>
+  </data>
+  <data name="btn_Language" xml:space="preserve">
+    <value>मराठी</value>
+    <comment>SetCulture.ascx</comment>
+  </data>
+  <data name="btn_Large" xml:space="preserve">
+    <value>अ+</value>
+  </data>
+  <data name="btn_Larger" xml:space="preserve">
+    <value>अ+</value>
+  </data>
+  <data name="btn_LargerToolTip" xml:space="preserve">
+    <value>अधिक मोठा फॉंट</value>
+  </data>
+  <data name="btn_LargeToolTip" xml:space="preserve">
+    <value>मोठा फॉंट</value>
+  </data>
+  <data name="btn_Medium" xml:space="preserve">
+    <value>अ</value>
+  </data>
+  <data name="btn_MediumToolTip" xml:space="preserve">
+    <value>मध्यम फॉंट</value>
+  </data>
+  <data name="btn_Small" xml:space="preserve">
+    <value>अ-</value>
+  </data>
+  <data name="btn_Smallest" xml:space="preserve">
+    <value>अ-</value>
+  </data>
+  <data name="btn_SmallestToolTip" xml:space="preserve">
+    <value>अधिक लहान फॉंट</value>
+  </data>
+  <data name="btn_SmallToolTip" xml:space="preserve">
+    <value>लहान फॉंट</value>
+  </data>
+  <data name="heading" xml:space="preserve">
+    <value>मान्यवर</value>
+    <comment>KeyPerson.ascx</comment>
+  </data>
+  <data name="HeadLoginStatus" xml:space="preserve">
+    <value>लॉग आऊट</value>
+  </data>
+  <data name="HomepagePath" xml:space="preserve">
+    <value>1001/Home'&gt;मुख्य पृष्ठ</value>
+  </data>
+  <data name="HyperLink1" xml:space="preserve">
+    <value>पासवर्ड बदला</value>
+  </data>
+  <data name="imgMahaIT_alt" xml:space="preserve">
+    <value>महाराष्ट्र माहिती तंत्रज्ञान महामंडळ मर्यादित.</value>
+  </data>
+  <data name="lbldepName" xml:space="preserve">
+    <value>महाराष्ट्र भाडे नियंत्रण कायदा, महाराष्ट्र शासन</value>
+  </data>
+  <data name="lblKeywordsearch" xml:space="preserve">
+    <value>शब्दशोध</value>
+    <comment>NewsMore.aspx</comment>
+  </data>
+  <data name="lblNews" xml:space="preserve">
+    <value>अद्ययावत बातम्या</value>
+    <comment>NewsControl.ascx</comment>
+  </data>
+  <data name="lblNewsMore" xml:space="preserve">
+    <value>अधिक अद्ययावत बातम्या</value>
+  </data>
+  <data name="lblSearchBTN" xml:space="preserve">
+    <value>शोधा</value>
+  </data>
+  <data name="lblSearchword" xml:space="preserve">
+    <value>आपण हे शब्द शोधत आहात :</value>
+  </data>
+  <data name="lblsitemap" xml:space="preserve">
+    <value>साईटमॅप</value>
+    <comment>SiteMap.ascx</comment>
+  </data>
+  <data name="lbl_copyright" xml:space="preserve">
+    <value>© गृहनिर्माण विभाग यांचे हे अधिकृत संकेतस्थळ आहे. सर्व अधिकार सुरक्षित.</value>
+  </data>
+  <data name="lbl_headTitle" xml:space="preserve">
+    <value>महाराष्ट्र भाडे नियंत्रण कायदा (गृहनिर्माण विभाग) &lt;br/&gt;&lt;span&gt;महाराष्ट्र शासन&lt;/span&gt;</value>
+  </data>
+  <data name="lbl_skipToContent" xml:space="preserve">
+    <value>विषयाकडे जा</value>
+  </data>
+  <data name="lbl_skipToNav" xml:space="preserve">
+    <value>दिशादर्शकाकडे जा</value>
+  </data>
+  <data name="NationalEmblem_alt" xml:space="preserve">
+    <value>भारत सरकार</value>
+  </data>
+  <data name="searchTxtBox" xml:space="preserve">
+    <value>येथे शोधा</value>
+    <comment>HeaderMain.ascx</comment>
+  </data>
+  <data name="Search_btn" xml:space="preserve">
+    <value>शोधा</value>
+    <comment>FormHeader.ascx</comment>
+  </data>
+  <data name="SitemapMsg" xml:space="preserve">
+    <value>तुम्ही आता येथे आहात :</value>
+  </data>
+  <data name="CityMumbai" xml:space="preserve">
+    <value>मुंबई,भारत</value>
+  </data>
+  <data name="lblStartDate" xml:space="preserve">
+    <value>वेबसाइट प्रारंभ तारीख:</value>
+  </data>
+  <data name="lblTodaysVisitor" xml:space="preserve">
+    <value>आजचे दर्शक:</value>
+  </data>
+  <data name="lblTotalVisitor" xml:space="preserve">
+    <value>एकूण दर्शक:</value>
+  </data>
+  <data name="lblViewPartnersHeading" xml:space="preserve">
+    <value>साइट शोधा</value>
+  </data>
+  <data name="lblDistrict" xml:space="preserve">
+    <value>जिल्ला निवडा</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>रद्द करा</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>जतन करा</value>
+  </data>
+</root>

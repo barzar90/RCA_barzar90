@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EditForm.master.cs" Inherits="MSHC.Masters.Forms.EditForm" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+
+    </title>
+    <link rel="shortcut icon" href="../../Images/favicon.ico" type="image/x-icon" />
+    <link href="../../Styles/Layout.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/jquery.js" type="text/javascript"></script>
+    <link href="../../Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Styles/PopStyles.css" rel="stylesheet" type="text/css" />
+    <link href="../../Styles/fileuploader.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/WaterMark/jquery.watermark.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/min.js" type="text/javascript"></script>
+    <script src="../../Scripts/file-upload.js" type="text/javascript"></script>
+    <div id="Div1" runat="server">
+        <script src="../../App/Scripts/jQueryPopup.js?Ver=<% Response.Write(System.Configuration.ConfigurationManager.AppSettings["MAHAITScriptVersion"].ToString()); %>" type="text/javascript"></script>
+        <script src="../../App/Scripts/MOLUpload.js?Ver=<% Response.Write(System.Configuration.ConfigurationManager.AppSettings["MAHAITScriptVersion"].ToString()); %>" type="text/javascript"></script>
+        <%--<script src="../../App/Scripts/MOLForms.js?Ver=<% Response.Write(System.Configuration.ConfigurationManager.AppSettings["MAHAITScriptVersion"].ToString()); %>" type="text/javascript"></script>--%>
+        <script src="../../App/Scripts/MOLMenu.js?Ver=<% Response.Write(System.Configuration.ConfigurationManager.AppSettings["MAHAITScriptVersion"].ToString()); %>" type="text/javascript"></script>
+        <script src="../../App/Scripts/MOLMessage-<%Response.Write(System.Threading.Thread.CurrentThread.CurrentCulture.ToString());%>.js?Ver=<% Response.Write(System.Configuration.ConfigurationManager.AppSettings["MAHAITScriptVersion"].ToString()); %>" type="text/javascript" type="text/javascript"></script>  
+    </div>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="editBody">
+    <form id="FormsSection" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    </form>
+</body>
+</html>

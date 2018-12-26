@@ -1,0 +1,106 @@
+    .suggsdivcssIN
+	{
+	    position:absolute;
+        top:10px;
+        left:10px;	
+		background-color:white;
+		overflow:hidden;
+        text-align:left;
+		visibility:hidden;
+		color:black;
+		border-style:solid;
+        border-width:1px;
+		border-color:#DADADA;
+		padding:5px;
+		text-indent:5px;
+		line-height:25px;
+		font-style:normal;
+        font-family:Sakal Marathi;
+		vertical-align:middle;
+		box-shadow: 2px 2px 1px #888888;
+        z-index:1000;
+	}
+	 #sugg div.selected {
+            
+			background-color:#E8E8E8;
+            color:white;	
+			font-weight:bold;
+        }
+		
+
+.clone{
+				position:absolute;
+				left:0px;
+				top:0px;
+				font-size:10pt;
+				height:15px;
+			    width:150px;
+			    overflow:hidden;
+				visibility:hidden;
+			    border-color:black;
+				font-style:normal;
+				font-family:Sakal Marathi;
+				font-variant:normal;
+				font-weight:normal;
+				letter-spacing:normal;
+				margin-bottom:0px;
+				margin-top:0px;
+				margin-left:0px;
+				margin-right:0px;
+				line-height:normal;
+				padding-bottom:0px;
+				padding-left:0px;
+				padding-top:0px;
+				padding-right:0px;
+			    background-color:white;
+				white-space:pre-wrap;
+				z-index:-10;
+				
+	   }
+	/*.suggsdivcssOUT
+	{
+	
+a
+{
+  color:#4D87CE;
+  font-weight:bold;	   
+  text-decoration:none;
+}
+
+#sugg a:hover {
+	color:#2a65ad;
+}
+      	 
+	    position:absolute;
+        top:10px;
+        left:10px;		 
+	    width: 110px;
+        height: 145px;
+		border-style:solid;
+        border-top-width:1px;
+	    border-bottom-width:13px;
+	    border-left-width:8px;
+	    border-right-width:2px;
+	    border-color:#A2BFF4;
+	    border-radius: 7px;
+	    behavior:url(js/css/PIE.htc);
+	    -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        background-color:#A2BFF4;
+        max-width:230px;
+        max-height:200px;
+		--------------
+		width: 105px;
+        height: 120px;
+		border-style:solid;
+        border-top-width:1px;
+	    border-bottom-width:0px;
+	    border-left-width:0px;
+	    border-right-width:0px;
+	    border-color:#A2BFF4;
+		background-color:white;
+	    border-color:#DADADA;
+		max-width:300px;
+        min-width:50px;
+		display:inline-block;
+    }*/

@@ -1,0 +1,3 @@
+﻿ALTER DATABASE [$(DatabaseName)]
+    ADD FILE (NAME = [ASPNETDB_2b8b60eac4204d09b7b88e8caca757e7_DAT], FILENAME = '$(DefaultDataPath)$(DatabaseName).MDF', FILEGROWTH = 5120 KB) TO FILEGROUP [PRIMARY];
+

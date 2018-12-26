@@ -1,0 +1,24 @@
+﻿.LeaderControl
+{
+	visibility:hidden;
+	left:200px; 
+	top: 1px; 
+	
+	width: 150px;
+	z-index: 142;
+	position:relative
+	
+}
+.styleColPan
+ {
+     overflow:scroll;
+ }
+ 
+ .PnlMap
+ {
+    position:absolute;
+    left:318px;
+    top:121px;
+    width:1075px;
+
+ }

@@ -1,0 +1,790 @@
+/** {
+	
+}
+*::selection {
+	background: #000;
+	color: #fff;
+}
+ *::-moz-selection {
+ background: #000;
+ color: #fff;
+}
+html, body {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: #333;
+}*/
+.hidden, hr {
+	display:none;
+}
+strike {
+	text-decoration: line-through !important;
+}
+
+section #container 
+{
+    position:absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden; background:#fff;
+}
+div#map {
+	position: absolute;
+	top: 0;
+	left: -500px !important;
+	width:2000px;
+	height:1300px;
+	overflow: visible;
+	background: url(../../Images/sgnp-maps.png) 500px 10px  no-repeat #62665c;
+	cursor: url(../../Images/openhand.gif), url(../../Images/openhand.cur), default;
+}
+body.night div#map {
+	background-position: right top;
+}
+html.Mac-Firefox div#map {
+	cursor: -moz-grab;
+}
+html.Mac-Firefox div#map *, div#map * {
+	cursor: auto;
+}
+html.Mac-Firefox div#container a,  html.Mac-Firefox div#container a *,  div#container a,  div#container a * {
+	cursor: pointer;
+}
+body.cursor-grabbing div#container * {
+	cursor: url(../../Images/closedhand.gif), url(../../Images/closedhand.cur), default !important;
+}
+html.Mac-Firefox body.cursor-grabbing div#container * {
+	cursor: -moz-grabbing !important;
+}
+/**
+	*
+	*	HEAD
+	*
+	**/
+	
+	div#head {
+	position: absolute;
+	top: 833px;
+	left: 398px;
+	width: 1px;
+	height: 1px;
+}
+div#head h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 366px;
+	height: 91px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/bg_h1.png) left top no-repeat;
+}
+div#head h2 {
+	position: absolute;
+	top: 114px;
+	left: 0;
+	width: 610px;
+	text-shadow: 1px 1px #0071A3;
+}
+div#head h2, div#head h2 * {
+	color: #fff;
+	font-size: 22px;
+	line-height: 30px;
+}
+div#head h2 a {
+	padding: 0 2px;
+	font-style: italic;
+}
+div#head h2 a:hover {
+	color: #fff;
+	background: #ea4e1c;
+}
+div#head p.post-overview {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	width: 392px;
+	font-size: 11px;
+	text-shadow: 1px 1px #0071A3;
+	color: #fff;
+	font-style: italic;
+}
+div#head ul#nav {
+	position: absolute;
+	top: 250px;
+	left: -5px;
+}
+div#head ul#nav li {
+	clear: both;
+}
+div#head ul#nav li a {
+	display: block;
+	float: left;
+	clear: both;
+	margin-bottom: 13px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+}
+div#head ul#nav li a:hover {
+	background-color: #ea4e1c;
+	padding-right: 14px;
+}
+a#b-aktuell {
+	background-image: url(../../Images/b_aktuell.png);
+	width: 195px;
+	height: 23px;
+}
+a#b-ueber {
+	background-image: url(../../Images/b_ueber.png);
+	width: 159px;
+	height: 24px;
+}
+a#b-impressum {
+	background-image: url(../../Images/b_impressum.png);
+	background-position: left -1px !important;
+	width: 88px;
+	height: 24px;
+}
+a#b-english {
+	position: absolute;
+	top: -38px;
+	left: -2px;
+	color: #fff;
+	font-size: 10px;
+	font-style: italic;
+	display: block;
+	float: left;
+	white-space: nowrap;
+	text-shadow: 1px 1px #0071A3;
+	padding: 2px;
+}
+a#b-english:hover {
+	background: #ea4e1c;
+	color: #fff;
+}
+/**
+	*
+	*	GLOBAL NAV
+	*
+	**/
+	
+	a#b-global-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -80px;
+	height: 160px;
+	width: 60px;
+	overflow: hidden;
+	text-indent: -200000em;
+	display: block;
+	background: url(../../Images/b_global-prev.png) left top no-repeat;
+	z-index: 1999;
+}
+a#b-global-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -80px;
+	height: 160px;
+	width: 60px;
+	overflow: hidden;
+	text-indent: -200000em;
+	display: block;
+	background: url(../../Images/b_global-next.png) left top no-repeat;
+	z-index: 1999;
+}
+div#follow {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	float: right;
+	z-index: 1999;
+}
+div#follow a {
+	display: block;
+	width: 58px;
+	height: 20px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_follow.png) left top no-repeat;
+}
+div#home {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	float: left;
+	z-index: 1999;
+}
+div#home a#b-home {
+	display: block;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_home.png) left top no-repeat;
+	float: left;
+	margin-right: 5px;
+}
+div#home a#b-day-night {
+	display: block;
+	width: 36px;
+	height: 20px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_day-night.png) left bottom no-repeat;
+	float: left;
+}
+body.night div#home a#b-day-night {
+	background-position: left top;
+}
+div.post-group {
+	position: absolute;
+}
+div.post-group div.post-group-inner {
+position: absolute;
+width:600px;
+height: 415px;
+bottom: 0px;
+left: -305px;
+overflow: hidden;
+background: url(../../Images/bg_post-group-inner.png) left top no-repeat;
+z-index: 999;
+}
+div.post-group div.post-group-inner div.post-stage {
+	position: absolute;
+	top: 45px;
+	left: 52px;
+	width: 707px;
+	height: 410px;
+	overflow: hidden;
+}
+div.post-group div.post-group-inner div.post-stage ul.post-stage-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80000px;
+	height: 410px;
+	overflow: hidden;
+}
+div.post-group div.post-group-inner div.post-stage ul.post-stage-content li.post-li {
+	position: relative;
+	display: block;
+	float: left;
+	width: 600px;
+	height: 410px;
+	overflow: hidden;
+}
+div.post-group div.post-group-inner div.post {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 310px;
+	overflow: hidden;
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+}
+div.post p {
+	margin-bottom: 0.5em;
+}
+div.post * {
+	line-height: 135%;
+	color: #a1a1a1;
+}
+div.post p a {
+	color: #15B0E2;
+}
+div.post p a:hover {
+	color: #ea4e1c;
+}
+div.post div.post-col1 {
+	width: 220px;
+float: left;
+height: 180px;
+overflow: hidden;
+}
+div.post div.post-col2 {
+	width:280px;
+	padding-left:10px;
+	float: left;
+	height: 280px;
+	overflow: hidden;
+}
+div.post div.post-col1 a,  div.post div.post-col1 a *,  div.post div.post-col2 a,  div.post div.post-col2 a * {
+	color: #EA4E1C;
+}
+div.post div.post-col1 a:hover,  div.post div.post-col1 a:hover *,  div.post div.post-col2 a:hover,  div.post div.post-col2 a:hover * {
+	color: #000;
+}
+div.post div.post-date {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	float: right;
+}
+div.post div.post-date a {
+	font-size: 12px;
+}
+div.post div.post-date a:hover {
+	color: #ea4e1c;
+}
+div.post-close {
+	position: absolute;top: 38px;right:40px;}
+
+div.post-close a {
+	display: block;
+	float: right;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_post-close.gif) left top no-repeat;
+	opacity: 0.3;
+}
+div.post-close a:hover {
+	opacity: 0.9999;
+}
+div.post-nav {
+	position: absolute;
+top: 356px;
+left: 52px;
+width: 500px;
+height: 24px;
+overflow: hidden;
+}
+div.post-nav a.b-prev {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_post-prev.gif) left top no-repeat;
+	width: 21px;
+	height: 21px;
+	opacity: 0.3;
+	z-index: 2;
+}
+div.post-nav a.b-next {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	float: right;
+	overflow: hidden;
+	text-indent: -200000em;
+	background: url(../../Images/b_post-next.gif) left top no-repeat;
+	width: 21px;
+	height: 21px;
+	opacity: 0.3;
+	z-index: 2;
+}
+div.post-nav a.b-prev:hover,  div.post-nav a.b-next:hover {
+	opacity: 0.9999;
+}
+div.post-nav span.post-nav-current {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+/**
+	*
+	*	REGULAR
+	*
+	**/
+	
+	div.post-type-regular div.post-col1 {
+	width: 707px;
+}
+div.post-type-regular div.post-col1,  div.post-type-regular div.post-col1 * {
+	font-size: 18px;
+}
+div.post-type-regular div.post-col1 h3 {
+	font-size: 38px;
+	margin-bottom: 0.5em;
+}
+/**
+	*
+	*	LINK
+	*
+	**/
+	
+	div.post-type-link div.post-col1 {
+	width: 707px;
+}
+div.post-type-link div.post-col1,  div.post-type-link div.post-col1 * {
+	font-size: 18px;
+}
+div.post-type-link div.post-col1 h3 {
+	font-size: 38px;
+	margin-bottom: 0.5em;
+}
+div.post-type-link div.post-col1 h3 a {
+	font-size: 38px;
+}
+/**
+	*
+	*	QUOTE
+	*
+	**/
+	
+	div.post-type-quote div.post-col1 {
+	width: 707px;
+}
+div.post-type-quote div.post-col1,  div.post-type-quote div.post-col1 * {
+	font-size: 18px;
+}
+div.post-type-quote div.post-col1 blockquote,  div.post-type-quote div.post-col1 blockquote * {
+	font-size: 38px;
+}
+div.post-type-quote div.post-col1 blockquote {
+	margin-bottom: 0.5em;
+}
+/**
+	*
+	*	PHOTO
+	*
+	**/
+	
+	div.post-type-photo div.post-col2,  div.post-type-photo div.post-col2 * {
+	font-size: 13px;
+}
+div.photo-container {
+	width: 500px;
+	height: 380px;
+	overflow: hidden;
+	background: #EDEDED url(../../Images/bg_video-container.gif) left top no-repeat;
+}
+div.photo-container-loaded {
+	background: #fff;
+}
+div.photo-container span {
+	display: none;
+}
+/**
+	*
+	*	DIALOG
+	*
+	**/
+	
+	div.post-type-conversation div.post-col1,  div.post-type-conversation div.post-col1 * {
+	font-size: 16px;
+}
+div.post-type-conversation div.post-col1 {
+	width: 707px;
+}
+div.post-type-conversation div.post-col1 h3 {
+	font-size: 26px;
+	margin-bottom: 0.5em;
+}
+div.post-type-conversation div.post-col1 div.conversation-line {
+	float: left;
+	width: 707px;
+}
+div.post-type-conversation div.post-col1 span.label {
+	float: left;
+	display: block;
+	width: 107px;
+	font-size: 12px;
+	padding-top: 4px;
+}
+div.post-type-conversation div.post-col1 span.label-patrick,  div.post-type-conversation div.post-col1 span.text-patrick {
+	color: #01abdf;
+}
+div.post-type-conversation div.post-col1 span.label-sebastian,  div.post-type-conversation div.post-col1 span.text-sebastian {
+	color: #ec721a;
+}
+div.post-type-conversation div.post-col1 span.text {
+	display: block;
+	float: left;
+	width: 600px;
+}
+	
+div.post-type-video div.post-col2,  div.post-type-video div.post-col2 * {
+	font-size: 18px;
+}
+
+div.video-container {
+	width: 500px;
+	height: 380px;
+	background: #EDEDED url(../../Images/bg_video-container.gif) left top no-repeat;
+}
+div.post-type-regular {
+	background-image: url(../../Images/bg_post-regular.gif);
+}
+div.post-type-link {
+	background-image: url(../../Images/bg_post-link.gif);
+}
+div.post-type-photo {
+	/*background-image: url(../../Images/bg_post-photo.gif);*/
+}
+div.post-type-quote {
+	background-image: url(../../Images/bg_post-quote.gif);
+}
+div.post-type-video {
+	background-image: url(../../Images/bg_post-video.gif);
+}
+div.post-type-conversation {
+	background-image: url(../../Images/bg_post-conversation.gif);
+}
+div.post-group div.post-group-handle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	margin-top: -22px;
+	margin-left: -22px;
+}
+div.post-group div.post-group-handle a {
+	display: block;
+	height: 44px;
+	width: 51px;
+	background: url(../../Images/bg_point.png) left top no-repeat;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+div.post-group div.post-group-handle a span {
+	display: block;
+	height: 34px;
+	width: 34px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+div.post-group-latest div.post-group-handle a span {
+	background: url(../../Images/bg_point_active.gif) 3px 3px no-repeat;
+}
+
+
+/**
+	*
+	*	MAP MODE
+	*
+	**/
+	
+	div#mapmode-point {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	margin-top: -22px;
+	margin-left: -22px;
+	height: 44px;
+	width: 51px;
+	background: url(../../Images/bg_point_mapmode.png) left top no-repeat;
+	overflow: hidden;
+}
+div#mapmode-point.complete {
+	background-image: url(../../Images/bg_point_mapmode_complete.png);
+}
+div.post div.post-date span {
+	font-size: 12px;
+	color: #000;
+	padding-left: 10px;
+}
+/**
+	*
+	*	FOOT
+	*
+	**/
+	
+	div#foot {
+	position: absolute;
+	bottom: 55px;
+	left: 398px;
+	width: 2500px;
+	height: 180px;
+}
+div#foot * {
+	color: #fff;
+	text-shadow: 1px 1px #272727;
+	line-height: 17px;
+}
+div#foot div#section-about {
+	float: left;
+	width: 1094px;
+}
+div#foot div#section-links {
+	float: left;
+	width: 280px;
+}
+div#foot div#section-legal {
+	float: left;
+	width: 350px;
+}
+div#foot h3 {
+	width: 100%;
+	margin-bottom: 22px;
+	font-size: 22px;
+}
+div#foot div#section-about p {
+	float: left;
+	width: 314px;
+	margin-right: 50px;
+}
+div#foot div#section-legal p {
+	margin-bottom: 10px;
+}
+div#foot div#section-legal p a,  div#foot div#section-links p a {
+	font-style: italic;
+}
+div#foot p a:hover {
+	color: #EA4E1C;
+}
+div#foot p.tumblr-credits {
+	padding-top: 10px;
+}
+div#foot p.tumblr-credits, div#foot p.tumblr-credits * {
+	vertical-align: middle;
+}
+div#foot p.tumblr-credits span {
+	font-size: 11px;
+	font-style: italic;
+	color: #888;
+}
+div#tumblr-problems, div#browser-problems, div#english-information {
+	display: none;
+}
+div#foot p span.credits {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #888;
+}
+/**
+	*
+	*	DISABLE UI
+	*
+	**/
+	
+	div#dui {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000;
+}
+div#dui img.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -14px;
+	margin-top: -14px;
+}
+div#dui span.loading {
+	display: block;
+	color: #002E41;
+	font-size: 9px;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 17px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 50%;
+	width: 100px;
+}
+div#dui2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+	background: #000;
+}
+div#dui2-contents {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100001;
+}
+div.message {
+	position: absolute;
+	width: 811px;
+	height: 550px;
+	top: 50%;
+	left: 50%;
+	margin-top: -275px;
+	margin-left: -406px;
+	overflow: hidden;
+	background: url(../../Images/bg_message.png) left top no-repeat;
+	z-index: 1;
+}
+div.message div.inner {
+	position: absolute;
+	top: 80px;
+	left: 52px;
+	width: 707px;
+	height: 410px;
+	overflow: hidden;
+}
+div.message div.inner div.buttons {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 707px;
+	height: 26px;
+}
+div.message div.inner p {
+	margin-bottom: 0.8em;
+}
+div.message div.inner * {
+	line-height: 135%;
+	color: #a1a1a1;
+}
+div.message div.inner,  div.message div.inner * {
+	font-size: 18px;
+}
+div.message div.inner h2 {
+	font-size: 38px;
+	margin-bottom: 0.5em;
+}
+div.message div.inner div.buttons a {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	height: 26px;
+	overflow: hidden;
+	text-indent: -200000em;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+div.message div.inner div.buttons a:hover {
+	background-position: left bottom;
+}
+a#b-hinweis-schliessen,  a#b-hinweis-schliessen2 {
+	width: 157px;
+	background-image: url(../../Images/b_hinweis-schliessen.gif);
+}
+a#b-hinweis-schliessen-en {
+	width: 78px;
+	background-image: url(../../Images/b_hinweis-schliessen-en.gif);
+}
+a#b-seite-neuladen {
+	width: 136px;
+	background-image: url(../../Images/b_seite-neuladen.gif);
+}
+.post-stage .heading { font-weight:bold; color:green}

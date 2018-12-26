@@ -1,0 +1,6 @@
+﻿ul.pagination {list-style-type:none;	}
+ul.pagination li {padding: 3px;margin: 3px;text-align:center;float:left;	}	
+ul.pagination a {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #AAAADD;text-decoration: none; color: #000099;	}
+ul.pagination a:hover, ul.digg a:active {border: 1px solid #000099;color: #000;	}
+ul.pagination li.current {padding: 2px 5px 2px 5px;border: 1px solid #000099;font-weight: bold;background-color: #000099;color: #FFF;	}
+ul.pagination li.disabled {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #EEE;color: #DDD;}

@@ -1,0 +1,49 @@
+<ul>
+  <li>
+    <a href="~/1009/Home">Home</a>
+  </li>
+  <li>
+    <a href="~/1020/About-Us">About Us</a>
+  </li>
+  <li>
+    <a href="~/1010/Rent-Control-Act">Rent Control Act</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="http://dgps.maharashtra.gov.in?MenuID=1011">Notification</a>
+  </li>
+  <li>
+    <a href="~/1012/Citizen-Charter">Citizen Charter</a>
+  </li>
+  <li>
+    <a href="#">Order Judgement </a>
+    <ul>
+      <li>
+        <a href="~/1014/Pune">Pune</a>
+      </li>
+      <li>
+        <a href="~/1015/Nashik">Nashik</a>
+      </li>
+      <li>
+        <a href="~/1016/Amravati">Amravati</a>
+      </li>
+      <li>
+        <a href="~/1017/Konkan">Konkan</a>
+      </li>
+      <li>
+        <a href="~/1018/Aurangabad">Aurangabad</a>
+      </li>
+      <li>
+        <a href="~/1019/Nagpur">Nagpur</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="https://aaplesarkar.maharashtra.gov.in/en/?MenuID=1028">Register Complaints</a>
+  </li>
+  <li>
+    <a target="_blank" title="External Website that opens in a new window" href="~/Site/Home/CaseTracking.aspx?MenuID=1029">Case Tracking</a>
+  </li>
+  <li>
+    <a href="~/1021/Contact-Us">Contact Us</a>
+  </li>
+</ul>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MailConfig>
+
+  <Mail Profile="applicantmaster">
+    <host></host>
+    <port>25</port>
+    <from>mangesh.kharat@mahaonline.gov.in</from>
+    <to>nitin.kumar@mahaonline.gov.in</to>
+    <subject>
+      Auditor Transaction ID
+    </subject>
+    <body>
+      data has been saved.
+    </body>
+  </Mail>
+
+  <Mail Profile="forgotpassword">
+    <host>smtp.gmail.com</host>
+    <port>25</port>
+    <from></from> <!--admin.support@coop.maharashtra.gov.in-->
+    <to>se4.mahait@mahait.org</to>
+    <subject>
+      Your New Password
+    </subject>
+    <body>
+      <user>
+        Dear #UserName,
+
+        Please find the new system generated password.
+
+        Password has been changed with : #TRNID
+
+        Please change the password at the earlisted on the portal.
+
+        Regards
+        Maharashtra Rent Control Act, Housing Department
+        http://housing.maharashtra.gov.in/
+
+        Note :	This is system generated email . Please do not respond to this email.
+      </user>
+    </body>
+  </Mail>
+
+</MailConfig>

@@ -1,0 +1,103 @@
+﻿
+.demo-wrapper
+{
+    display: none; /*background-color: #6a6a6a;*/
+}
+.news-wrapper
+{
+    background: url(../images/bg.jpg);
+    height: 155px;
+}
+.news-wrapper .news-contents-wrapper
+{
+    width: 275px;
+    margin: auto;
+    height: 125px;
+    font-family:Verdana, arial, Tahoma;
+}
+.news-wrapper .news-contents
+{
+    overflow: hidden;
+    position: relative;
+    z-index: 998;
+    height: 125px;
+    text-align: left;
+    font-family:Verdana, arial, Tahoma;
+}
+.news-wrapper .news
+{
+    width: 100%;
+    height: 60px;
+    color: #333333;
+    position: absolute;
+    z-index: 999;
+    border-bottom: 1px dotted #333333;
+    font-family:Verdana, arial, Tahoma;
+}
+.news-wrapper .news-header
+{
+    color: black;
+    height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana;
+}
+h1
+{
+    color: #333333;
+    font-size: 11px;
+}
+.clear
+{
+    clear: both;
+}
+.circle-outer
+{
+    font-size: 11px;
+    font-weight: bold; /*background-color: #40474F;*/
+}
+.circle
+{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.circle.blue
+{
+    color: #2E5E6C;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#A3CCD8, endColorstr=#5E9EB7)";
+    background-image: -o-linear-gradient(#A3CCD8, #5E9EB7);
+}
+
+.history
+{
+}
+.description
+{
+    padding: 4px;
+    color: #333333;
+}
+.description .detail
+{
+    font-size: 11px;
+    color: #333333;
+}
+.elipses, .day, .month
+{
+    display: block;
+    height: 10px;
+}
+.day, .month
+{
+    float: none;
+}
+h1 a, h1 a:active, h1 a:visited
+{
+    text-decoration: none;
+    color: #333333;
+}
+h1 a:hover
+{
+    text-decoration: underline;
+    color: #333333;
+}
